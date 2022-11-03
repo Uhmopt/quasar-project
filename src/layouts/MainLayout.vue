@@ -4,7 +4,10 @@
       <q-toolbar>
         <q-toolbar-title> Quasar App </q-toolbar-title>
 
-        <div>Quasar v{{ $q.version }}</div>
+        <div>
+          Quasar v{{ $q.version }}
+          <q-btn to="/blank" flat dense round icon="link" aria-label="Link" />
+        </div>
       </q-toolbar>
     </q-header>
 
@@ -15,6 +18,8 @@
 </template>
 
 <script>
+import { useRouter } from "vue-router";
+
 export default {
   name: "MainLayout"
 };
