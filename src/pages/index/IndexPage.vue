@@ -1,13 +1,13 @@
 <template>
   <q-page class="row">
-    <div class="col-3 column">
+    <div class="col-md-3 col-12 column">
       <IndexPageLeftSide />
     </div>
-    <div class="col-6 column">
+    <div class="col-md-6 col-12 column">
       <IndexPageMainTop />
       <IndexPageMainBottom />
     </div>
-    <div class="col-3 column">
+    <div class="col-md-3 col-12 column">
       <IndexPageRightSide />
     </div>
   </q-page>
