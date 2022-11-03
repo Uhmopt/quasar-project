@@ -5,8 +5,9 @@
         <q-toolbar-title> Quasar App </q-toolbar-title>
 
         <div>
-          Quasar v{{ $q.version }}
-          <q-btn to="/blank" flat dense round icon="link" aria-label="Link" />
+          <q-btn to="/blank" flat icon="link" aria-label="Link"
+            >Go to page</q-btn
+          >
         </div>
       </q-toolbar>
     </q-header>
